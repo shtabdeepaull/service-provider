@@ -6,12 +6,12 @@ import {getAuth} from "firebase/auth";
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
-  apiKey: "AIzaSyDFFs0Q1EF1mXAr9oGMo238iLdigsTkXp8",
-  authDomain: "edulab-visa-consultancy-center.firebaseapp.com",
-  projectId: "edulab-visa-consultancy-center",
-  storageBucket: "edulab-visa-consultancy-center.appspot.com",
-  messagingSenderId: "382809634634",
-  appId: "1:382809634634:web:74c5c7b7bac0ca375233b3"
+  apiKey:process.env.REACT_APP_apiKey,
+  authDomain:process.env.REACT_APP_authDomain, 
+  projectId:process.env.REACT_APP_projectId,
+  storageBucket:process.env.REACT_APP_storageBucket, 
+  messagingSenderId:process.env.REACT_APP_messagingSenderId,
+  appId:process.env.REACT_APP_appId, 
 };
 
 // Initialize Firebase
