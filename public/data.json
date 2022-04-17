@@ -1,23 +1,23 @@
 [
     {
       "_id": "625bd07dd8997d77be4c4fd1",
-      "picture": "http://placehold.it/32x32",
-      "name": "Beulah Durham",
-      "price": "+1 (891) 412-3162",
-      "description": "300 Bethel Loop, Canoochee, New Mexico, 2337"
+      "picture": "https://i.ibb.co/WBCgjPG/service1.png",
+      "name": "Student Visa",
+      "price": "1000",
+      "description": "As an international student or foreign national, you will generally need a visa to enter the USA for any length of time. The visa category for most international students is F1, and the 'Edulab visa Consultancy Center' have more information on that. The F1 Visa is the most popular/ common visa that is issued to incoming students into the USA."
     },
     {
       "_id": "625bd07d775e7e71369e1d7c",
-      "picture": "http://placehold.it/32x32",
-      "name": "Doreen Wilkinson",
-      "price": "+1 (935) 599-2539",
-      "description": "742 Halleck Street, Drytown, North Carolina, 1895"
+      "picture": "https://i.ibb.co/1XKNgpR/service2.png",
+      "name": "Visitor Visa",
+      "price": "2000",
+      "description": "Generally, a citizen of a foreign country who wishes to enter the United States must first obtain a visa, either a nonimmigrant visa for a temporary stay, or an immigrant visa for permanent residence. Visitor visas are nonimmigrant visas for persons who want to enter the United States temporarily for business (visa category B-1), for tourism (visa category B-2), or for a combination of both purposes (B-1/B-2).There are several steps to apply for a visa.You should submit your personal information, trip details and health declaration electronically within three days prior to the date of your arrival."
     },
     {
       "_id": "625bd07d638c4f578a4e99e6",
-      "picture": "http://placehold.it/32x32",
-      "name": "Evangeline Cook",
-      "price": "+1 (954) 563-3628",
-      "description": "584 Beaver Street, Dixie, Texas, 4086"
+      "picture": "https://i.ibb.co/cbV5CwL/service3.png",
+      "name": "Work Permit Visa",
+      "price": "3500",
+      "description": "A visa is an official stamp in your passport authorizing you to travel, work, or study in that country for a specified length of time. All countries, including the US, require a work permit visa for foreign workers; employers will not hire you without one. You can apply for a work visa by using both online and offline modes of application.All your visa application needs to be supported by the proof of your education and work experience to support the fact that you meet the requirements for the job."
     }
   ]
