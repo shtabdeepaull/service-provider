@@ -10,6 +10,8 @@ const Login = () => {
     const navigate = useNavigate();
     const location = useLocation();
 
+    let from = location.state?.from?.pathname || "/";
+
     const [
         signInWithEmailAndPassword,
         user,
@@ -18,7 +20,7 @@ const Login = () => {
     ] = useSignInWithEmailAndPassword(auth);
 
     if (user) {
-        navigate('/home');
+        navigate(from, {replace: true});
     }
 
     const handleSubmit = event => {
