@@ -9,6 +9,7 @@ import Register from './Pages/Home/Login/Register/Register';
 import CheckOut from './Pages/CheckOut/CheckOut';
 import NotFound from './Pages/Shared/NotFound/NotFound';
 import RequiredAuth from './Pages/Home/Login/RequiredAuth/RequiredAuth';
+import Blog from './Pages/Blog/Blog';
 
 
 
@@ -27,6 +28,7 @@ function App() {
             <CheckOut></CheckOut>
           </RequiredAuth>
         }></Route>
+        <Route path="/blog" element={<Blog></Blog>}></Route>
         <Route path="/login" element={<Login></Login>}></Route>
         <Route path="/register" element={<Register></Register>}></Route>
         <Route path="*" element={<NotFound></NotFound>}></Route>
