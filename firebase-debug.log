@@ -1,0 +1,17 @@
+[debug] [2022-04-18T17:15:55.579Z] ----------------------------------------------------------------------
+[debug] [2022-04-18T17:15:55.583Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Shtabdee\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js deploy
+[debug] [2022-04-18T17:15:55.585Z] CLI Version:   10.6.0
+[debug] [2022-04-18T17:15:55.585Z] Platform:      win32
+[debug] [2022-04-18T17:15:55.585Z] Node Version:  v16.14.0
+[debug] [2022-04-18T17:15:55.588Z] Time:          Mon Apr 18 2022 23:15:55 GMT+0600 (Bangladesh Standard Time)
+[debug] [2022-04-18T17:15:55.588Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2022-04-18T17:15:55.763Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2022-04-18T17:15:55.764Z] > authorizing via signed-in user (shtabdee30@gmail.com)
+[debug] [2022-04-18T17:15:55.764Z] [iam] checking project edulab-visa-consultancy-center for permissions ["firebase.projects.get","firebasehosting.sites.update"]
+[debug] [2022-04-18T17:15:55.768Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects/edulab-visa-consultancy-center:testIamPermissions [none]
+[debug] [2022-04-18T17:15:55.769Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/edulab-visa-consultancy-center:testIamPermissions {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
+[debug] [2022-04-18T17:16:07.721Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects/edulab-visa-consultancy-center:testIamPermissions 200
+[debug] [2022-04-18T17:16:07.722Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/edulab-visa-consultancy-center:testIamPermissions {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
+[debug] [2022-04-18T17:16:07.725Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/edulab-visa-consultancy-center [none]
+[debug] [2022-04-18T17:16:18.878Z] Failed to make request to https://firebase.googleapis.com/v1beta1/projects/edulab-visa-consultancy-center
