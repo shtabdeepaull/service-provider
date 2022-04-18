@@ -14,17 +14,17 @@ const Footer = () => {
                 <p><small>Work-Permit Visa</small></p>
             </div>
             <div>
-                <p><i class="fa-solid fa-phone"></i>+01356578493</p>
-                <p><i class="fa-solid fa-envelope"></i>Shtabdee30@gmail.com</p>
-                <p><i class="fa-solid fa-address-card"></i>Mirpur10,Dhaka</p>
+                <p><i className="fa-solid fa-phone"></i>+01356578493</p>
+                <p><i className="fa-solid fa-envelope"></i>Shtabdee30@gmail.com</p>
+                <p><i className="fa-solid fa-address-card"></i>Mirpur10,Dhaka</p>
             </div>
             <div>
             <a className='m-2' href="https://www.linkedin.com/in/shtabdee-paul-1a2604195/"><i  className="fa-brands fa-linkedin w-25 "></i></a>
-            <a href="https://www.facebook.com/shtabdee.paul/"><i class="fa-brands fa-facebook-square"></i></a>
+            <a href="https://www.facebook.com/shtabdee.paul/"><i className="fa-brands fa-facebook-square"></i></a>
             </div>
            </section>
            <section>
-            <p className='text-center'><i class="fa-solid fa-copyright"></i> {year}, Edulab visa Consultancy Center. All rights reserved.</p>
+            <p className='text-center'><i className="fa-solid fa-copyright"></i> {year}, Edulab visa Consultancy Center. All rights reserved.</p>
       </section>
  
         </footer>

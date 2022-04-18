@@ -4,6 +4,9 @@ import Header from './Pages/Shared/Header/Header';
 import AboutMe from './Pages/AboutMe/AboutMe';
 import Footer from './Pages/Shared/Footer/Footer';
 import Home from './Pages/Home/Home/Home';
+import Login from './Pages/Home/Login/Login/Login';
+import Register from './Pages/Home/Login/Register/Register';
+import CheckOut from './Pages/CheckOut/CheckOut';
 import NotFound from './Pages/Shared/NotFound/NotFound';
 
 
@@ -14,7 +17,13 @@ function App() {
       <Header></Header>
       <Routes>
         <Route path="/" element={<Home></Home>}></Route>
+        <Route path="/home" element={<Home></Home>}></Route>
         <Route path="/aboutme" element={<AboutMe></AboutMe>}></Route>
+        {/* <Route path="/services" element={<Services></Services>}></Route>
+        <Route path="/reviews" element={<Reviews></Reviews>}></Route> */}
+        <Route path="/service/:serviceID" element={<CheckOut></CheckOut>}></Route>
+        <Route path="/login" element={<Login></Login>}></Route>
+        <Route path="/register" element={<Register></Register>}></Route>
         <Route path="*" element={<NotFound></NotFound>}></Route>
       </Routes>
       <Footer></Footer>
