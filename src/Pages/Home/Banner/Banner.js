@@ -18,7 +18,7 @@ const Banner = () => {
         />
         <Carousel.Caption>
           <h3 className='text-black'>University Application Process</h3>
-          <p className='text-black'> You get a rational, insightful, fact-driven approach so that you can achieve your educational and career aspirations.</p>
+          <p > You get a rational, insightful, fact-driven approach so that you can achieve your educational and career aspirations.</p>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
@@ -30,7 +30,7 @@ const Banner = () => {
         <Carousel.Caption>
           <h3 className='text-black'>
             Credits, academic matters, and eligibility..</h3>
-          <p className='text-black'>When it's about academic matters we ensure quality and eligibility for selection into universities. We will help you decide about course selection and how many credits to take.</p>
+          <p >When it's about academic matters we ensure quality and eligibility for selection into universities. We will help you decide about course selection and how many credits to take.</p>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
@@ -42,7 +42,7 @@ const Banner = () => {
 
         <Carousel.Caption>
           <h3 className='text-black'>Get the correct information </h3>
-          <p className='text-black'>You will avail precise information about permits for working while studying and compare opportunities at multiple universities and regions. </p>
+          <p >You will avail precise information about permits for working while studying and compare opportunities at multiple universities and regions. </p>
         </Carousel.Caption>
       </Carousel.Item>
     </Carousel>

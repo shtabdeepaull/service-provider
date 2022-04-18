@@ -1,0 +1,16 @@
+.footer{
+    background-color: lightslategray;
+    height: 200px;
+    margin-bottom: 5px;
+    margin-top: 20px;
+}
+
+/* .Icons{
+    display: block;
+    margin: 5px;
+} */
+
+.footer i fa{
+    size: 30px;
+    color: black;
+}
