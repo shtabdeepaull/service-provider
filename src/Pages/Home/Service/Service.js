@@ -13,7 +13,7 @@ const Service = ({service}) => {
                     description.length > 150 ? description.slice(0,150)+'...':description
                 }
                 </small></p>
-            <button>Book Now</button>
+            <button className='btn btn-dark'>Book Now</button>
         </div>
     );
 };

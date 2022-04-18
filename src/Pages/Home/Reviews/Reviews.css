@@ -1,0 +1,35 @@
+.review-container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 20px;
+}
+.reviews{
+    background-color: lightgray;
+    height: 400px;
+    margin-bottom: 10px;
+}
+
+@media only screen and (max-width:576px) {
+    .review-container{
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .reviews{
+        background-color: lightgray;
+        height: 1000px;
+        margin-bottom: 10px;
+    }
+}
+
+@media only screen and (min-width:577px) and (max-width:992px){
+    .review-container{
+        grid-template-columns: repeat(2, 1fr);
+        font-size: 20px;
+    }
+
+    .reviews{
+        background-color: lightgray;
+        height: 800px;
+        margin-bottom: 10px;
+    }
+}
